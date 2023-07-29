@@ -2,6 +2,11 @@ import fs, { OpenMode } from "fs";
 import path from "path";
 
 function touchOpen(filename: string, flags: OpenMode): number {
+  
+
+
+
+
   if (fs.existsSync(filename)) {
     fs.unlinkSync(filename);
   }
@@ -17,7 +22,7 @@ export function main() {
     "r"
   );
 
-  fs.readSync(stopWordFd, dataBuffer, 0, dataBuffer.length);
+  fs.readSync(stopWordFd, dataBuffer, 0, dataBuffer.length,null);
 
   data = data.concat(dataBuffer.toString("utf8").split(","));
 
