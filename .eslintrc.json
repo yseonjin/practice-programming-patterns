@@ -21,9 +21,5 @@
         "allowNumber": false
       }
     ]
-  },
-  "ignorePatterns": [
-    "src/**/*.test.ts",
-    "src/frontend/generated/*"
-  ]
+  }
 }

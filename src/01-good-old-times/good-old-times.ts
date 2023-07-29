@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-function touchOpen(filename: string, options: fs.OpenMode): number {
+function touchOpen(filename: string): number {
     if (fs.existsSync(filename)) {
         fs.unlinkSync(filename);
     }
