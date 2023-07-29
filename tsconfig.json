@@ -18,8 +18,12 @@
     "strictPropertyInitialization": false,
     "skipLibCheck": true
   },
-  "include": ["src/**/*.ts"],
-  "exclude": ["**/__test__/**"]
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "**/__test__/**"
+  ]
 }
 
 
