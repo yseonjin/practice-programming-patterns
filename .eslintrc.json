@@ -21,5 +21,11 @@
         "allowNumber": false
       }
     ]
-  }
+  },
+  "@typescript-eslint/eslint-disable-next-line no-constant-condition": [
+    2,
+    {
+      "checkLoops": false
+    }
+  ]
 }
