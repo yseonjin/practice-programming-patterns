@@ -1,7 +1,6 @@
 {
   "root": true,
   "extends": [
-    "eslint:recommended",
     "plugin:@typescript-eslint/recommended"
   ],
   "parser": "@typescript-eslint/parser",
@@ -21,11 +20,5 @@
         "allowNumber": false
       }
     ]
-  },
-  "@typescript-eslint/eslint-disable-next-line no-constant-condition": [
-    2,
-    {
-      "checkLoops": false
-    }
-  ]
+  }
 }
